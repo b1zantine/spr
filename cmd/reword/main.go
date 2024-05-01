@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git/realgit"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git/realgit"
 	"github.com/google/uuid"
 )
 

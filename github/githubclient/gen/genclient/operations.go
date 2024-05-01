@@ -5,7 +5,7 @@ package genclient
 import (
 	"context"
 
-	"github.com/ejoffe/spr/github/githubclient/fezzik_types"
+	"github.com/b1zantine/spr/github/githubclient/fezzik_types"
 	"github.com/inigolabs/fezzik/client"
 )
 

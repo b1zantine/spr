@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/git/mockgit"
-	"github.com/ejoffe/spr/github"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
-	"github.com/ejoffe/spr/github/mockclient"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/git/mockgit"
+	"github.com/b1zantine/spr/github"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
+	"github.com/b1zantine/spr/github/mockclient"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/config/config_parser"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 	"github.com/ejoffe/rake"
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/config/config_parser"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
 	"github.com/rs/zerolog/log"
 )
 
@@ -25,7 +25,7 @@ func (c *client) MaybeStar(ctx context.Context, cfg *config.Config) {
 		starred, err := c.isStar(ctx)
 		if err != nil {
 			fmt.Println("enjoying git spr? [Y/n]")
-			fmt.Print("  please add a star at https://github.com/ejoffe/spr")
+			fmt.Print("  please add a star at https://github.com/b1zantine/spr")
 			reader := bufio.NewReader(os.Stdin)
 			line, _ := reader.ReadString('\n')
 			line = strings.TrimSpace(line)

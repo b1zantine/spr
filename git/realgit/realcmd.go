@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/ejoffe/spr/config"
+	"github.com/b1zantine/spr/config"
 	"github.com/rs/zerolog/log"
 )
 

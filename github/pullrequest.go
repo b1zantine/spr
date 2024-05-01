@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/terminal"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/terminal"
 )
 
 // PullRequest has GitHub pull request data

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/github"
-	"github.com/ejoffe/spr/github/githubclient/fezzik_types"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/github"
+	"github.com/b1zantine/spr/github/githubclient/fezzik_types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -570,7 +570,7 @@ It even includes some **markdown** formatting.
 - #1
 
 
-⚠️ *Part of a stack created by [spr](https://github.com/ejoffe/spr). Do not merge manually using the UI - doing so may have unexpected results.*`,
+⚠️ *Part of a stack created by [spr](https://github.com/b1zantine/spr). Do not merge manually using the UI - doing so may have unexpected results.*`,
 			commit: descriptiveCommit,
 			stack: []*github.PullRequest{
 				{Number: 1, Commit: simpleCommit},
@@ -627,7 +627,7 @@ It even includes some **markdown** formatting.
 - Title A #1
 
 
-⚠️ *Part of a stack created by [spr](https://github.com/ejoffe/spr). Do not merge manually using the UI - doing so may have unexpected results.*`,
+⚠️ *Part of a stack created by [spr](https://github.com/b1zantine/spr). Do not merge manually using the UI - doing so may have unexpected results.*`,
 			commit: descriptiveCommit,
 			stack: []*github.PullRequest{
 				{Number: 1, Commit: simpleCommit, Title: "Title A"},

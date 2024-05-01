@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/config/config_parser"
+	"github.com/b1zantine/spr/git/realgit"
+	"github.com/b1zantine/spr/github/githubclient"
+	"github.com/b1zantine/spr/spr"
 	"github.com/ejoffe/rake"
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/config/config_parser"
-	"github.com/ejoffe/spr/git/realgit"
-	"github.com/ejoffe/spr/github/githubclient"
-	"github.com/ejoffe/spr/spr"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
@@ -69,7 +69,7 @@ GLOBAL OPTIONS:
 {{end}}
 COMMANDS:
 {{range .Commands}}{{if not .HideHelp}}   {{join .Names ","}}{{ "\t"}}{{.Usage}}{{ "\n" }}{{end}}{{end}}
-AUTHOR: {{range .Authors}}{{ . }}{{end}}
+AUTHORS: {{range .Authors}}{{ . }}{{end}}
 VERSION: fork of {{.Version}}
 `
 
@@ -80,6 +80,10 @@ VERSION: fork of {{.Version}}
 		Version:              fmt.Sprintf("%s : %s : %s\n", version, date, commit[:8]),
 		EnableBashCompletion: true,
 		Authors: []*cli.Author{
+			{
+				Name: "b1zantine",
+				Email: "b1zantine.king@gmail.com",
+			},
 			{
 				Name:  "Eitan Joffe",
 				Email: "eitan@inigolabs.com",

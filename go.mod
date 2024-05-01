@@ -1,4 +1,4 @@
-module github.com/ejoffe/spr
+module github.com/b1zantine/spr
 
 go 1.21
 

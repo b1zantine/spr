@@ -14,12 +14,12 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/config/config_parser"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/github"
 	"github.com/ejoffe/profiletimer"
 	"github.com/ejoffe/rake"
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/config/config_parser"
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/github"
 )
 
 // NewStackedPR constructs and returns a new stackediff instance.

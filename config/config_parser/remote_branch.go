@@ -3,8 +3,8 @@ package config_parser
 import (
 	"regexp"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
 )
 
 type remoteBranch struct {

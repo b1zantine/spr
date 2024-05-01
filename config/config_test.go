@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 	"github.com/stretchr/testify/assert"
 )
 

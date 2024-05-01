@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 	"github.com/ejoffe/rake"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
 )
 
 type Config struct {

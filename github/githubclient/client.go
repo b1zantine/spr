@@ -12,11 +12,11 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/github"
-	"github.com/ejoffe/spr/github/githubclient/fezzik_types"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/github"
+	"github.com/b1zantine/spr/github/githubclient/fezzik_types"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/oauth2"
 )
@@ -527,7 +527,7 @@ func getSectionOfPRTemplate(text, searchString string, returnMatch int) (string,
 
 func addManualMergeNotice(body string) string {
 	return body + "\n\n" +
-		"⚠️ *Part of a stack created by [spr](https://github.com/ejoffe/spr). " +
+		"⚠️ *Part of a stack created by [spr](https://github.com/b1zantine/spr). " +
 		"Do not merge manually using the UI - doing so may have unexpected results.*"
 }
 

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/github"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/github"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 	"github.com/stretchr/testify/require"
 )
 

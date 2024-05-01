@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git"
 	"github.com/ejoffe/rake"
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git"
 )
 
 func ParseConfig(gitcmd git.GitInterface) *config.Config {

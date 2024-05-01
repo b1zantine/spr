@@ -3,8 +3,8 @@ package github
 import (
 	"context"
 
-	"github.com/ejoffe/spr/git"
-	"github.com/ejoffe/spr/github/githubclient/gen/genclient"
+	"github.com/b1zantine/spr/git"
+	"github.com/b1zantine/spr/github/githubclient/gen/genclient"
 )
 
 type GitHubInterface interface {

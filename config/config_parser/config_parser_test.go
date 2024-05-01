@@ -3,8 +3,8 @@ package config_parser
 import (
 	"testing"
 
-	"github.com/ejoffe/spr/config"
-	"github.com/ejoffe/spr/git/mockgit"
+	"github.com/b1zantine/spr/config"
+	"github.com/b1zantine/spr/git/mockgit"
 	"github.com/stretchr/testify/assert"
 )
 

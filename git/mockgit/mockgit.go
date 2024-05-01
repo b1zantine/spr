@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ejoffe/spr/git"
+	"github.com/b1zantine/spr/git"
 	"github.com/stretchr/testify/require"
 )
 
